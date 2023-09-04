@@ -1,1 +1,34 @@
-hallo
+opdracht 1. Mappen
+
+Microsoft Windows [Version 10.0.22621.2134]
+(c) Microsoft Corporation. Alle rechten voorbehouden.
+
+C:\school>mkdir "leren programmeren"
+
+C:\school>mkdir "assesments"
+
+C:\school>mkdir "kladblaadjes"
+
+C:\school>
+
+opdracht 2. Python
+
+Microsoft Windows [Version 10.0.22621.2134]
+(c) Microsoft Corporation. Alle rechten voorbehouden.
+
+C:\Users\lithe>python --version
+Python 3.11.5
+
+C:\Users\lithe>pip --version
+pip 23.2.1 from C:\Users\lithe\AppData\Local\Programs\Python\Python311\Lib\site-packages\pip (python 3.11)
+
+C:\Users\lithe>py
+Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 20-5
+15
+>>>
+
+
+
+
