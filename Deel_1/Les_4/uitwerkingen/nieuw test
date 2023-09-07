@@ -1,0 +1,31 @@
+# < kleiner aan
+# > groter dan
+# == gelijk aan
+# != niet gelijk aan 
+# >=
+# 
+naam = input("wat is he naam?")
+
+zin = f"Hoi {naam} wat is je leeftijd?"
+leeftijd = int(input(zin))
+
+STUDENTEN_TARIEF = 25 # CONSTANTEN
+STANDAARD_TARIEF = 27.50
+SENIOREN_TARIEF = 35
+
+prijs = STANDAARD_TARIEF
+
+aanbiedings_zin = "" 
+
+if leeftijd < 18:
+    aanbiedings_zin ="je mag helaas zelf nog geen abonnement afsluiten!"
+elif leeftijd < 50:
+   aanbiedings_zin = "je krijgt van ons gratis 2 GB extra data (vanaf 25 GB)"
+   if leeftijd < 25:
+    prijs = STANDAARD_TARIEF
+else :
+    aanbiedings_zin = "je krijgt van ins gratis smsjes(zolang de voorraad strekt)"
+
+if leeftijd >= 18:
+tekst = f"ons abonnement is {prijs} per maand!! en je krijgt van ons:"
+print(tekst + "" + aanbiedings_zin)

@@ -1,0 +1,15 @@
+name = 'Lithe'
+age = 21
+
+greeting = f'Hallo, my name is {name}. My age is {age}.'
+greeting2 = 'Hallo, my name is ' + name + ' my age is' + age
+
+print(greeting)
+print(greeting2)
+
+
+straal = float(       input('straal?')      )
+
+straal = 12.5
+
+omtrek = straal * 2 * math.pi 

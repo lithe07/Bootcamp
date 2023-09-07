@@ -1,0 +1,35 @@
+naam = input ('hoe heet je?')
+leeftijd = input('wat is je leeftijd in jaren?') # leeftijd is van type string 
+verschil = int(leeftijd) - 18 # verschil is type int
+# int = stop je in waarde in
+print('dag' + naam + " je bent " + str(verschil) + ' jaar ouder dan 18!')
+
+# built in functies (bif)
+# print () stuurt een string naar de CLI (command line)
+# input () vraagt een string aan de gebruiker
+# int () stop er een sting in en krijg een int 
+# str () stop er een int of float in en krijg een string
+# float () stop er een string in en krijg een float 
+
+# int is geheel getal
+# float is getal met ,
+# str is tekst
+# bool is true/false
+
+# < kleiner aan
+# > groter dan
+# == gelijk aan
+# != niet gelijk aan 
+# >=
+# 
+naam = input("wat is he naam?")
+
+zin = f"Hoi {naam} wat is je leeftijd?"
+leeftijd = int(input(zin))
+ 
+if leeftijd < 18:
+    print("je mag helaas zelf nog geen abonnement afsluiten!")
+if leeftijd < 50:
+    print("je krijgt van ons gratis 2 GB extra data (vanaf 25 GB)")
+
+
