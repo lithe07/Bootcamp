@@ -1,3 +1,3 @@
-x = 18
-if x == 18:
-   print('de waarde van x = 18')
+a = 1
+b = 2
+print("a") if a > b else print("b")

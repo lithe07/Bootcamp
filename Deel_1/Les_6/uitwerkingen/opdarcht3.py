@@ -1,4 +1,4 @@
-leeftijd = 15
+leeftijd = 18
 
 if leeftijd >= 16:
     print("gegeliciteerd, je mag je brommerrijbewijs halen.")
