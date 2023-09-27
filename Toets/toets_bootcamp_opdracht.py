@@ -69,4 +69,25 @@ langste_naam = max(lijst_eten, key=len)
 print(f"\nHet eten met de langste naam op het menu is: {langste_naam}")
 
 
- 
+#opdracht 9
+while True:
+    try:
+        cijfer = float(input("voer een cijfer tussen 0 en 10 in: "))
+        if 0 <= cijfer <= 10:
+            print("goed gedaan! het ingevoerde cijfer is gedlig. ")
+            break
+        else:
+            print("fout! het ingevoerde cijfer moet tussen 0 en 10 liggen ")
+    except ValueError:
+        print("fout! voer aub een geldig getal in. ")
+
+# opdarcht 10
+MAX = 20
+getal = int(input("Voer een getal in"))
+
+if getal > MAX:
+    print(f"Het getal is groter dan {MAX}")
+elif getal < MAX:
+    print(f"Het getal is kleiner dan {MAX}")
+else:
+    print(f"Het getal is gelijk aan {MAX}")
