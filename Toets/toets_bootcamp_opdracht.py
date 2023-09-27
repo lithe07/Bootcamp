@@ -34,19 +34,15 @@ antwoord = som(getal1, getal2, getal3)
 
 print(f"De som van {getal1} + {getal2} + {getal3} = {antwoord}")
 
-# opdrach 6
+# opdracht 6
 AANTAL_GB = 20
 AANTAL_MINUTEN = 200 
 ONBEPERKT = False 
 aantal_minuten_gebeld = int(input("Hoeveel minuten heb je gebeld?"))
 aantal_GB_internet = int(input("Hoeveel GB's heb je gebruikt?"))
 
-
 if not ONBEPERKT and aantal_minuten_gebeld > AANTAL_MINUTEN or aantal_GB_internet > AANTAL_GB :
     print("Let op: je moet bijbetalen!")
-
-    
-
 else:
     print("Niet aan de hand gebruik je mobiel lekker verder!")
 
@@ -72,14 +68,16 @@ print(f"\nHet eten met de langste naam op het menu is: {langste_naam}")
 #opdracht 9
 while True:
     try:
-        cijfer = float(input("voer een cijfer tussen 0 en 10 in: "))
-        if 0 <= cijfer <= 10:
-            print("goed gedaan! het ingevoerde cijfer is gedlig. ")
+        getal = int(input('voer getal in tussen 0 en 10'))
+
+        if 0<= getal <= 10:
+            print('je hebt het goede cijfer ', getal)
             break
         else:
-            print("fout! het ingevoerde cijfer moet tussen 0 en 10 liggen ")
+            print('fout voer opnieuw cijfer in tussen 0 en 10 ')
+
     except ValueError:
-        print("fout! voer aub een geldig getal in. ")
+        print('Fout voer een geldige waarde in')
 
 # opdarcht 10
 MAX = 20
